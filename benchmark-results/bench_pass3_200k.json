@@ -1,0 +1,44 @@
+{
+  "model": "mlx-community/Qwen3.6-27B-4bit",
+  "load_secs": 2.73,
+  "results": [
+    {
+      "prompt_tokens": 200000,
+      "gen_tokens": 32,
+      "prefill_secs": 1910.812,
+      "decode_secs": 2.431,
+      "prefill_tps": 104.7,
+      "decode_tps": 13.2,
+      "rss_gb": 15.55,
+      "peak_mlx_gb": 51.28,
+      "config": {
+        "kv_bits": null,
+        "context": 200000,
+        "gen_tokens": 32,
+        "kv_group_size": 64,
+        "quantized_kv_start": 0,
+        "prefill_step": 2048,
+        "max_kv_size": null
+      }
+    },
+    {
+      "prompt_tokens": 200000,
+      "gen_tokens": 32,
+      "prefill_secs": 2110.232,
+      "decode_secs": 4.09,
+      "prefill_tps": 94.8,
+      "decode_tps": 7.8,
+      "rss_gb": 15.55,
+      "peak_mlx_gb": 41.38,
+      "config": {
+        "kv_bits": 4,
+        "context": 200000,
+        "gen_tokens": 32,
+        "kv_group_size": 64,
+        "quantized_kv_start": 0,
+        "prefill_step": 2048,
+        "max_kv_size": null
+      }
+    }
+  ]
+}
